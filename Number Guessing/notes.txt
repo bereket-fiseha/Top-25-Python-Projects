@@ -1,0 +1,3 @@
+To Learn
+- random class in python 
+- getting input from user
