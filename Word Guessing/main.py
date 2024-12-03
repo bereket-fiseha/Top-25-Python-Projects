@@ -5,18 +5,18 @@ class GuessingGame:
     def GuessWord(self):
          words=["science","python","leetcode","football","django","golang","matlib","pandas","numpy"]
          word=random.choice(words)
-         word="pandas"
+         
          hashMap={}
          for i,w in enumerate(word):
              if w in hashMap.keys():
                  hashMap[w].append(i)
              else:
                  hashMap[w]=[i]     
-         print(hashMap)        
          list_of_chars=["_" for x in word]
          attempts=12
          i=0
-         print("the word is anything related to python")
+         print("the word is anything related to python \n")
+    
          while i<attempts:
              ch_guess=input("Guess one character from the word?")
              if ch_guess in word:
@@ -29,6 +29,7 @@ class GuessingGame:
                  print("char found ,👏")
                  print(" ".join(list_of_chars))
                  if "".join(list_of_chars)==word:
+                     print("\n")
                      print("Hooray, you found the word!!!!")
                      break
 
