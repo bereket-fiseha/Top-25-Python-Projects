@@ -1,0 +1,10 @@
+
+
+summary
+- A user chooses from rock , paper and scissor 
+- Computer chooses randomly from rock , paper and scissor 
+- The winner is decided based on this rules , scissor cuts paper, paper covers rock, rock beats scissor
+
+To Learn
+- Enum
+- random
