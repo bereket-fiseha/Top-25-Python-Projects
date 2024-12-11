@@ -1,0 +1,4 @@
+summary
+- user enters emoji
+- the program returns text equivalent of the emoji
+
