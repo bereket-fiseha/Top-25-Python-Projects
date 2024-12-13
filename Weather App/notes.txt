@@ -1,0 +1,7 @@
+summary
+- shows the current weather of specific city
+
+To Learn
+- Gui 
+- fetching api
+- json
