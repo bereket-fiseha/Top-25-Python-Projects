@@ -1,0 +1,5 @@
+summary
+- computer chooses random word from a list
+- user guesses the word by guessing each character with limited attempts
+- computer shows response upon each guess 
+

@@ -1,0 +1,6 @@
+summary
+- user enters duration in sec
+- the system countdowns the timespan till 0
+
+To Learn
+- time module

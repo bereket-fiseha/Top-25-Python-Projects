@@ -12,6 +12,10 @@ class BinaryTree:
      def __init__(self,root=None):
               self.root=root
 
+     def build(self,list_of_data):
+           for data in list_of_data:
+               self.insert(data)
+
      def insert(self,data):
          new_node=TreeNode(data)
          if not self.root:
@@ -42,15 +46,10 @@ class BinaryTree:
               self.in_order_traversal(root.right)
      def remove(self,data):
          pass
-     def build(self,arr:list):
-         pass
                   
 
 if __name__=="__main__":
      tree=BinaryTree()
-     tree.insert(5)
-     tree.insert(4)
-     tree.insert(6)
-     tree.insert(7)
-     tree.insert(1)
-     tree.pre_order_traversal(tree.root)    
+     
+     tree.build([5,4,6,7,1,9,8,44])
+     tree.in_order_traversal(tree.root)    
